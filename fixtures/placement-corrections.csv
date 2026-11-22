@@ -1,0 +1,3 @@
+sensor,period,from,to,room,known_period
+S1,A,10:00,13:00,hall,C
+S3,A,11:00,12:00,living,C

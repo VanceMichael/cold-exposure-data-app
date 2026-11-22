@@ -1,0 +1,4 @@
+case,building,unit,incident_period,decided_period,state,evidence
+K1,B1,U1,A,B,closed,S1
+K2,B1,U3,A,B,monitoring,S3
+K3,B4,U1,B,C,closed,I3

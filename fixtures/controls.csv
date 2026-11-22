@@ -1,0 +1,7 @@
+building,period,from,to,setpoint_c,known_period
+B1,A,08:00,12:00,19,A
+B1,A,12:00,18:00,21,A
+B2,A,08:00,18:00,19,A
+B3,A,08:00,18:00,20,A
+B4,A,08:00,18:00,19,A
+B1,B,08:00,18:00,20,B

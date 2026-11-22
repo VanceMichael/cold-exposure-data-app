@@ -78,6 +78,38 @@
       "to",
       "state",
       "cents"
+    ],
+    "controls": [
+      "building",
+      "period",
+      "from",
+      "to",
+      "setpoint_c",
+      "known_period"
+    ],
+    "station-error": [
+      "station",
+      "period",
+      "lower_delta_c",
+      "upper_delta_c",
+      "known_period"
+    ],
+    "placement-corrections": [
+      "sensor",
+      "period",
+      "from",
+      "to",
+      "room",
+      "known_period"
+    ],
+    "dispositions": [
+      "case",
+      "building",
+      "unit",
+      "incident_period",
+      "decided_period",
+      "state",
+      "evidence"
     ]
   },
   "links": [
@@ -113,6 +145,30 @@
     ],
     [
       "rebates",
+      "building",
+      "buildings",
+      "building"
+    ],
+    [
+      "controls",
+      "building",
+      "buildings",
+      "building"
+    ],
+    [
+      "station-error",
+      "station",
+      "buildings",
+      "station"
+    ],
+    [
+      "placement-corrections",
+      "sensor",
+      "sensors",
+      "sensor"
+    ],
+    [
+      "dispositions",
       "building",
       "buildings",
       "building"
