@@ -1,0 +1,5 @@
+source,from_period,to_period,cents_per_unit_hour,max_hours
+H1,H1,A,550,4
+H1,B,C,500,4
+H2,H1,C,500,5
+H3,H1,C,480,5

@@ -61,6 +61,23 @@
       "design",
       "residence_floor",
       "low_threshold"
+    ],
+    "service-terms": [
+      "source",
+      "from_period",
+      "to_period",
+      "cents_per_unit_hour",
+      "max_hours"
+    ],
+    "rebates": [
+      "receipt",
+      "building",
+      "unit",
+      "period",
+      "from",
+      "to",
+      "state",
+      "cents"
     ]
   },
   "links": [
@@ -93,6 +110,12 @@
       "station",
       "weather",
       "station"
+    ],
+    [
+      "rebates",
+      "building",
+      "buildings",
+      "building"
     ]
   ]
 }

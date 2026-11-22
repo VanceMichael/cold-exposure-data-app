@@ -1,0 +1,4 @@
+receipt,building,unit,period,from,to,state,cents
+X1,B1,U1,A,10:00,12:00,paid,1100
+X2,B2,U5,A,10:00,11:00,proposed,550
+X3,B4,U1,B,10:00,12:00,paid,960
