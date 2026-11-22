@@ -1,0 +1,5 @@
+building,station,heat_source,units,home_region
+B1,M1,H1,48,north
+B2,M1,H1,62,north
+B3,M2,H2,33,east
+B4,M2,H3,72,east

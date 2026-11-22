@@ -1,0 +1,4 @@
+ticket,building,unit,period,from,to,device,state
+I1,B1,U1,B,09:00,11:00,T1,notified
+I2,B2,U2,B,10:00,11:30,T1,proposed
+I3,B4,U1,C,08:00,10:00,T2,closed

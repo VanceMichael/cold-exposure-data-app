@@ -1,0 +1,6 @@
+sensor,building,unit,room,start_period,known_period,sampling
+S1,B1,U1,living,A,A,complaint
+S1,B1,U1,hall,B,C,complaint
+S2,B2,U2,living,A,A,random
+S3,B3,U3,living,A,A,random
+S4,B4,U1,living,A,A,random

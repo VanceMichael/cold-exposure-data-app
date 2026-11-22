@@ -1,0 +1,98 @@
+{
+  "tables": {
+    "buildings": [
+      "building",
+      "station",
+      "heat_source",
+      "units",
+      "home_region"
+    ],
+    "weather": [
+      "station",
+      "period",
+      "time",
+      "celsius"
+    ],
+    "sensors": [
+      "sensor",
+      "building",
+      "unit",
+      "room",
+      "start_period",
+      "known_period",
+      "sampling"
+    ],
+    "inside": [
+      "sensor",
+      "period",
+      "time",
+      "celsius",
+      "occupied",
+      "online"
+    ],
+    "actions": [
+      "job",
+      "building",
+      "source",
+      "period",
+      "time",
+      "kind",
+      "state"
+    ],
+    "appointments": [
+      "ticket",
+      "building",
+      "unit",
+      "period",
+      "from",
+      "to",
+      "device",
+      "state"
+    ],
+    "visits": [
+      "ticket",
+      "recorded_period",
+      "room",
+      "celsius",
+      "notes"
+    ],
+    "sensor-selection": [
+      "building",
+      "design",
+      "residence_floor",
+      "low_threshold"
+    ]
+  },
+  "links": [
+    [
+      "inside",
+      "sensor",
+      "sensors",
+      "sensor"
+    ],
+    [
+      "sensors",
+      "building",
+      "buildings",
+      "building"
+    ],
+    [
+      "appointments",
+      "building",
+      "buildings",
+      "building"
+    ],
+    [
+      "visits",
+      "ticket",
+      "appointments",
+      "ticket"
+    ],
+    [
+      "buildings",
+      "station",
+      "weather",
+      "station"
+    ]
+  ]
+}
