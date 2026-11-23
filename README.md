@@ -16,3 +16,12 @@ CSV 使用 UTF-8、逗号分隔，无引号与内嵌换行。未提供的字段�
 使用 Node.js 22.23.4，依赖仅为 Node.js 标准库。运行 `npm ci --ignore-scripts --offline` 准备工作区。
 
 运行 `npm run check:materials` 检查合成交接资料的字段与记录引用。运行 `npm test` 检查交接资料的读取和校验。
+
+## 寒潮复核引擎
+
+`lib/` 为室温低温暴露复核引擎（仅用 Node 标准库），`tools/cold-review.mjs` 输出 JSON 报告，
+口径与证据分级见 `docs/methodology.md`。
+
+- `node tools/cold-review.mjs all`：冷段、暴露区间、楼栋比较、阀门归因、核查排程、减免结算、历史处置全量报告。
+- 单模块：`cold | exposure | compare | intervention | schedule | rebates | evidence`。
+- 所有分析支持 `asOf` 时点视角，区分当班依据与当前可采用证据；`npm test` 覆盖各业务规则与边界场景。
